@@ -13,6 +13,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import com.coot.rpg.Bounty;
 import com.coot.rpg.CoinBank;
+import com.coot.rpg.Shop;
 
 public class SpigCoot extends JavaPlugin implements Listener {
 	
@@ -24,6 +25,7 @@ public class SpigCoot extends JavaPlugin implements Listener {
 	
 	public CoinBank bank = new CoinBank(this);
 	public Bounty bounty = new Bounty(this);
+	public Shop shop = new Shop(this);
 	
 	
 	@Override
